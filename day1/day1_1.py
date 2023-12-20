@@ -1,6 +1,5 @@
 def day1():
     total = 0
-    lines = []
     with open("./day1_1_input.txt") as f:
         for line in f:
             total += find_value(line)
